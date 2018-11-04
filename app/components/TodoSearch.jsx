@@ -3,9 +3,9 @@ import React from 'react'
 class TodoSearch extends React.Component{
     handleSearch = () => {
         const showCompleted = this.refs.showCompleted.checked;
-        const seachText = this.refs.seachText.value;
+        const searchText = this.refs.searchText.value;
 
-        this.props.onSearch(showCompleted, seachText);
+        this.props.onSearch(showCompleted, searchText);
     }
     render(){
         return(
