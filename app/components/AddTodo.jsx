@@ -25,4 +25,4 @@ class AddTodo extends React.Component {
     }
 }
 
-module.exports = AddTodo;
+export default  AddTodo;

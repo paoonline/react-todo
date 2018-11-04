@@ -11,4 +11,4 @@ class Todo extends React.Component {
     }
 }
 
-module.exports = Todo
+export default Todo
